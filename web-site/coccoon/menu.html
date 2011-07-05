@@ -1,0 +1,93 @@
+<!-- 
+	This file is the menu for coccoon. Leave a return before 
+the closing list item tag ["</li>"]. Each menu is implemented as a series
+of nested lists. Since there is special attributes for the main <ul> tag, 
+it is located inside the header.html file. Please do not put the opening and
+closing list tags.
+ -->
+
+<li <!--#if expr="$REQUEST_URI=/portfolio/"-->class="active"<!--#endif-->><a href="/content/portfolio">Portfolio</a></li>
+<li><a href="http://blog.rbe.homeip.net">Blog</a>
+    <ul class="submenu">
+		<li><a href="http://blog.rbe.homeip.net">Programming</a></li>
+		<li><a href="http://wxcpan.wordpress.com">wxCPANPLUS</a></li>
+		<li><a href="http://cmsthemebuilder.wordpress.com">CMS Theme Builder</a></li>
+		<li><a href="http://remedialmedia.wordpress.com">ReMedial</a></li>
+		<li><a href="http://skamansam.wordpress.com">Personal</a></li>
+    </ul>
+</li>
+<li <!--#if expr="$REQUEST_URI=/projects/"-->class="active"<!--#endif-->><a class="nohref">Projects</a>
+    <ul class="submenu">
+	<li><a href="/content/projects/MeApps/">MeApps</a>
+	<ul class="submenu">
+		<li><a href="/content/projects/MeApps/sams.html">SaMS</a></li>
+		<li><a href="/content/projects/MeApps/mestart.html">MeStart</a></li>
+		<li><a href="/content/projects/MeApps/meblog.html">MeBlog</a></li>
+		<li><a href="/content/projects/MeApps/counter">counter</a></li>
+	</ul>
+	</li>
+	
+	<li><a href="/content/projects/web/">Web Apps </a>
+	<ul class="submenu">
+		<li><a href="/content/projects/web/mash/index.html">M.A.S.H.</a></li>
+		<li><a href="/content/projects/web/browser.html">Browser Info</a></li>
+		<li><a href="/content/projects/tools/CMSThemeBuilder">CMS Theme Builder</a></li>
+	</ul>
+	</li>
+	
+	<li><a href="/content/projects/tools/">Tools</a>
+	<ul class="submenu">
+		<li><a href="/content/projects/web/browser.html">Browser Info</a></li>
+		<li><a href="/content/projects/tools/puniconf.html">pUniConf</a></li>
+		<li><a href="/content/projects/tools/CMSThemeBuilder">CMS Theme Builder</a></li>
+	</ul>
+	</li>
+	
+	<li><a href="/content/projects/math/">Math</a>	
+	<ul class="submenu">
+		<li><a href="/content/projects/math/javatrig/index.html">Triangle Solver</a>
+		<ul class="submenu">
+			<li><a href="/content/projects/math/javatrig/program.html">TI-8x Program</a></li>
+			<li><a href="/content/projects/math/javatrig/trigexp.html">Trig Reference</a></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><a href="/content/projects/cobol/">System Config</a>
+		<ul class="submenu">
+		<li><a href="/content/projects/tools/puniconf.html">pUniConf</a></li>
+		</ul>	
+	</li>
+	<li><a href="/content/projects/themes/">Themes</a>
+	<ul class="submenu">
+		<li><a href="/content/projects/themes/ampache/">Ampache</a></li>
+		<li><a href="/content/projects/themes/wordpress/">WordPress</a></li>
+		<li><a href="/content/projects/themes/drupal/">Drupal</a></li>
+		<li><a href="/content/projects/themes/jinzora/">Jinzora</a></li>
+		<li><a href="/content/projects/themes/remedial/">ReMediaL</a></li>
+	</ul>
+	</li>
+	<li><a href="/content/projects/ideas/">Ideas</a></li>
+	<li><a href="/content/projects/abandoned/">Abandoned</a></li>
+</ul>
+</li>
+<li <!--#if expr="$REQUEST_URI=/download/"-->class="active"<!--#endif-->><a href="/content/downloads/" title="Download some of my stuff!">Downloads</a></li>
+<li <!--#if expr="$REQUEST_URI=/resume/"-->class="active"<!--#endif-->><a href="/content/resume/" title="Check out my resum&eacute;">Resum&eacute;</a></li>
+
+<li <!--#if expr="$REQUEST_URI=/more/"-->class="active"<!--#endif-->><a href="/content/more/">More...</a>
+<ul class="submenu">
+
+<li><a href='http://music.rbe.homeip.net'>Music</a></li>
+<li><a class="nohref">The Tyler Family</a>
+<ul class="submenu">
+	<li><a href="http://earle.rbe.homeip.net" title="Earle Goodson Tyler's Wiki">Earlewiki</a></li>
+	<li><a href="http://tylers.rbe.homeip.net" title="The Tyler Geneology">Geneology</a></li>
+</ul>
+</li>
+<li><a href="http://photos.rbe.homeip.net" title="My Photo Gallery">Photos</a></li>
+<li><a href="/content/honeymoon/" title="Mr. and Mrs. Tyler's honeymoon in Montauk!">Honeymoon</a>
+</li>
+<li><a href="http://old.rbe.homeip.net"
+	title="You are currently viewing my new site. Click here to go to my old site.">My Old Site</a></li>
+</ul>
+</li>

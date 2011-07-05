@@ -1,0 +1,10 @@
+{ 
+   "shell-theme": {
+       "name": "Bubbly Blue", 
+       "author": "Skaman Sam", 
+       "version": "1.0",
+       "type":   "custom",
+       "thumbnail": "preview-smoothinsert.png", 
+       "url": "http://rbe.homeip.net" 
+    }
+} 

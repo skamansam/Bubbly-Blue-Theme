@@ -1,0 +1,24 @@
+The bubbly-blue theme is a light-blue theme with green highlights and plenty of 
+smooth gradients, creating a subtle 3D effect. This project's goal is to create
+this theme for many platforms. So far, these are:
+
+Web Based Applications
+web-site [100% complete]
+        This is the theme for my web site. It will contain an HTML layout, images, and 
+        css for the site.
+wordpress [80% complete]
+        This is a highly customizable version of the web-site template. Features include
+        the ability to change parts of the header, a 3-layer header, and movable header 
+        elements.
+ampache [0% done]
+jinzora [0% done]
+
+Desktops and Applications
+backgrounds [0% done]
+gtk-2.0 [0% done]
+gtk-3.0 [0% done]
+metacity-1 [0% done]
+gnome-shell [0% done]
+
+Other
+rubles  [0% done] - any rubles for Aptana I created while developing this theme.

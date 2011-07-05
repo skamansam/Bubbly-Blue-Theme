@@ -1,0 +1,193 @@
+/* header.css : this file is used in the theme admin panel */
+#header {
+	border: 1px solid #666;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 6px 6px 3px #669;
+	-moz-box-shadow: 6px 6px 3px #669;
+	-webkit-box-shadow: 6px 6px 3px #669;
+	height: 100px;
+	padding: 0px;
+	text-align:center;
+	background: #74B1EF  url("images/bg_1x100.jpg") repeat-x 0 0;
+	width: 1000px;
+}
+
+#header_fx {
+	margin: 0;
+	height: 100px;
+	width: 100%;
+/*	position: absolute;*/
+}
+
+#header_fx h1{
+	margin:0px;padding:0px;
+	text-shadow:2px 2px 2px #CCCCFF
+}
+#header_logo{
+	max-height:90px;
+	position:relative;
+	float:left;
+	opacity: 0.5;
+	top: 8px;
+	left:8px;
+}
+#logo_layer{width:100%;height:100px;}
+/****************************/
+
+/* Begin Menu Styles */
+
+#page_menu {
+	position: absolute;
+	z-index: 2;
+	padding-left:0px;
+	padding-right:0px;
+	border:none;
+	margin-top:-22px;
+	margin-left:189px;
+}
+
+#page_menu ul,#page_menu ol {
+	display: block;
+	margin-top: 0px;
+	padding-left:0px;
+}
+
+#page_menu li { /*float: left;*/
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:4px;
+	padding-bottom:2px;
+	text-align:left;
+	font-family: monospace;
+	font-size:9pt;
+	color: #99FF99;
+}
+
+#page_menu li a{ 
+	height:100%;
+	display:inline-block;
+	color: #99FF99;
+}
+
+/*Top-level items*/
+#page_menu>ul>li,#page_menu>ol>li{
+	background: #0F73B3 url(images/ui-bg_highlight-soft_75_0f73b3_1x100.png) repeat-x scroll 50% 50%;
+	border-radius:10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border: 1px solid #666;
+	border-bottom:none;
+}
+
+
+/*All submenu items*/
+#page_menu ul ul > li,
+#page_menu ol ol > li {
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	float:none;
+	position: relative;
+	margin-left: -5px;
+}
+
+/*All submenu links*/
+#page_menu ul > li > a,
+#page_menu ol > li > a {
+	width:100%; 
+	height:100%;
+	font-weight:bold;
+	text-decoration:none;
+}
+#page_menu a:hover,
+#page_menu li:hover a{
+	color: #fff;
+}
+#page_menu .active{
+	border-bottom:none;
+	color: #fff;
+}
+/*Top-level items on hover*/
+#page_menu > ul > li:hover,
+#page_menu > ol > li:hover,
+#page_menu .active {
+	background: #6CC567 url(images/ui-bg_highlight-soft_65_6cc567_1x100.png) repeat-x scroll 50% 50%;
+	border-radius:10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+}
+
+
+/*all submenus on hover*/
+#page_menu li:hover > ul, 
+#page_menu li:hover > ol {
+	display: block;
+}
+
+/*first submenu - dropdown */
+#page_menu li > ul, 
+#page_menu li > ol {
+	border-top:none;
+	border-radius:0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	display: none;
+	z-index: 2;
+	margin:none;
+	position: absolute;
+	white-space: nowrap;
+	margin-left: -5px;
+}
+
+#page_menu li > ul > li, 
+#page_menu li > ol > li{
+	background-color: #6CC567;
+	margin: none;
+	text-align: left;
+}
+/*All fly-out menus*/
+#page_menu li > ul > li > ul,
+#page_menu li > ol > li > ol {
+	margin-left:10em;
+	margin-top:-1.4em;
+	display:none;
+}
+/* End Menu Styles */
+
+/****************************/
+#header_fx h1{font-size:40px;line-height: 49px;}
+#header_fx .description, {
+	font-size: 1.2em;
+	text-align: center;
+	margin-left:130px;
+	}
+h1 a, h1 a:hover, h1 a:visited, #header_fx .description {
+	text-decoration: none;
+	color: #000;
+	}
+	
+	
+.wp-admin .bb-section-closed{
+	margin:0px;
+}
+.wp-admin .bb-section-closed{
+	background: #ddd url(/wp-admin/images/screen-options-right.gif) no-repeat 0 50%;
+	padding-left:23px;
+	height:22px;
+	line-height:22px;
+}
+.wp-admin .bb-section-open{
+	background-image:url(/wp-admin/images/screen-options-right-up.gif);
+}
+.bb-option-pane{
+	border: 1px solid #ddd;
+	border-top:none;
+	margin-top: 0px;
+}

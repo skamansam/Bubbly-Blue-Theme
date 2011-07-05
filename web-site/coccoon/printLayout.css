@@ -1,0 +1,21 @@
+body{
+/*	width:8.5in;
+	margin:1in 0.5in 1in 0.5in;*/
+}
+#left_spacer,
+#right_spacer{
+ 	width:0px;
+ }
+ #header{float:left;clear:both;width:100%;border-bottom:thick #000 solid;}
+ #header img{float:left;margin:0px;padding:0px;border-color:}
+ #header_custom{height:100%;max-height:100%;overflow:hidden;margin:0px;padding:0px;}
+ 
+ #school_tabs,#submenu_tabs{display:none;}
+ #envelope{border:none;}
+
+#footer{float:left;font-size:7pt;border-top:solid #000 thin;font-weight:bold;}
+#footer #info{float:left;}
+#footer #maintainer{float:right;}
+
+ #credits{height:0px;visibility:hidden;}
+ 

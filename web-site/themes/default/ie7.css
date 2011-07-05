@@ -1,0 +1,131 @@
+/*This file is for browser fixes in IE 7 and below.*/
+#menu {
+	margin-left: 9px;
+	margin-top: -4px;
+}
+
+#menu ul,#menu ol {
+	width: 100%;
+	margin-left: 0px;
+}
+
+#menu li {
+	/*width: 16.3%;/*
+}
+
+#menu ul li {
+	/*width: 16.3%;*/
+}
+
+#menu li:hover ul {
+	width: 100%;
+	margin-top: 1.5em;
+	left: 0px;
+	margin-left: 0px;
+}
+
+#menu li:hover ul li {
+	width: 100%;
+}
+
+#menu li a {
+	color: #000;
+}
+
+/*COPY*/
+#menu li a {
+	
+}
+
+/*all sub-menu links*/
+#menu .submenu li a {
+	
+}
+
+#menu .submenu li a:hover {
+	
+}
+
+/*all sub-menus*/
+#menu ol.submenu,#menu ul.submenu {
+	z-index:1000;	
+}
+
+/*all list items in dropdown and fly-out*/
+#menu ol.submenu li,#menu ul.submenu li {
+	z-index:1000;
+}
+
+/*all list items in dropdown and fly-out on hover*/
+#menu ol.submenu li:hover,#menu ul.submenu li:hover {
+	
+}
+
+/*Top-level items*/
+#menu>ul>li,#menu>ol>li {
+	
+}
+
+#menu>ul>li>a,#menu>ol>li>a {
+	
+}
+
+#menu>ul>li>a:hover,#menu>ol>li>a:hover {
+	
+}
+
+#menu .active {
+	
+}
+
+/*Top-level items on hover*/
+#menu>ul>li:hover,#menu>ol>li:hover,#menu .active {
+	z-index:1000;
+}
+
+/*first submenu - dropdown */
+#menu>ul>li>ul.submenu,#menu>ol>li>ol.submenu {
+	z-index:1001;
+}
+
+/*All fly-out menus*/
+#menu ul.submenu>li>ul.submenu,#menu ol.submenu>li>ol.submenu {
+	z-index:1002;
+}
+
+/*all submenus on hover*/
+#menu li:hover ul,#menu li:hover ol {
+	display: block;
+	z-index:10000;
+	
+}
+
+/*second-level fly-out menu*/
+#menu>ul>li>ul.submenu>li>ul {
+	display: none;
+	width:15em;
+}
+
+#menu>ul>li>ul.submenu>li:hover>ul {
+	display: block;
+}
+
+/*third-level fly-out menu*/
+#menu>ul>li>ul.submenu>li>ul>li>ul {
+	display: none;
+	z-index:10005;
+}
+
+#menu>ul>li>ul.submenu>li>ul>li:hover>ul {
+	display: block;
+	z-index:10005;
+	
+}
+
+#menu li>ul {
+	
+}
+#menu .submenu li{z-index:1010;}
+#menu .submenu .submenu{margin-top:0px;}
+#menu .submenu .submenu .submenu{margin-top:0px;}
+#menu .submenu .submenu li{z-index:1007;}

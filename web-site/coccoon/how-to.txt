@@ -1,0 +1,133 @@
+[admin_how-to.txt:
+		This file is a nearly complete how-to on using the Coccoon web management system, 
+	developed for the North Carolina Academy of Science by Samuel C. Tyler. If you have 
+	any questions or comments, don't hesitate to email Samuel Tyler at sctyler@uncg.edu 
+	or skamansam@gmail.com.]
+	
+WHAT IS COCCOON?
+		Coccoon is an easier way to maintain and update the NCAS web site. The 
+	idea is simple: just add content. All the rest is taken care of for you. If
+	you are an administrator, just edit a few files  to modify the global look and feel. 
+	
+ABOUT
+		The theory behind coccoon is simple - simplify! All of the files that 
+	are local to one of the three schools are in the respective coccoon/ sub-directories.
+	All the code that is used for all three schools is kept under the /coccoon_global/ 
+	directory at the top-level of the site. Each school has full control of what the look 
+	and feel of its site is, while maintaining the same overall layout.
+	
+TECHNOLOGIES USED
+		I have used the Accessible Website Menu by Brothercake (http://www.udm4.com/) 
+	to handle the layout of the menus. All other code is written by me (Samuel C. Tyler 
+	<sctyler@uncg.edu or skamansam@gmail.com>).
+	
+STANDARDS-COMPLIANCE
+		Coccoon fully validates against the World Wide Web Consortium's (w3c) 
+	recommendations and other standards, at http://validator.w3.org/. Use of 
+	Internet Explorer is discouraged, because it is NOT a standards-compliant web
+	browser. Any browser that is based on the Mozilla engine is recommended (see 
+	'TOOLS' section below). However, all the pages look the same in almost all browsers.
+	To validate your page, simply click on the icons at the bottom of every page. The 
+	icon labelled 'W3C CSS' validates the styles used, and the one labelled 'W3C XHTML 1.0'
+	validate the actual html code. Use the html button, then the css button.
+	
+FILES
+		The files structure used is as follows:	
+	/coccoon_global/
+		This directory stores all of the code that is used by all 3 schools.
+	/coccoon_global/admin-how-to.txt
+		this document
+	/coccoon_global/footer.html 
+		The last part of the coccoon structure. Contains ending html and all the 
+		information at the bottom of each page.
+	/coccoon_global/header.html 
+		The first part of the coccoon structure. Contains the logo, beginning html, header tag, etc.
+	/coccoon_global/ncas_logo.html
+		The NCAS logo.
+	/coccoon_global/printLayout.css
+		This is the layout used when the user prints a document.
+	/coccoon_global/screenLayout.css
+		All the Style information that defines the layout of every page, when 
+		viewed on a computer screen.
+	/coccoon_global/local_dirs.html
+		Server-Side Include directives that set the LOCAL_DIR variable that tells 
+		where to find each schools home directory. If you want to add a new school 
+		or set of similar pages (i.e. a shopping cart), copy an existing coccoon 
+		directory there, and edit this file.
+	/coccoon_global/udm-control.js,
+	/coccoon_global/udm-dom-lite.js,
+	/coccoon_global/udm-dom-ultra.js,
+	/coccoon_global/udm-dom.js,
+	/coccoon_global/udm-mod-keyboard.js,
+	/coccoon_global/udm-control.js,
+	/coccoon_global/udm-style.css,
+	/coccoon_global/udm-style.js
+		DO NOT EDIT THESE FILES!!! These files are used by the Accessible Website Menu 
+		by Brothercake (http://www.udm4.com/). If you wish to edit these, consult the 
+		web site. I will not answer questions regarding these files.	
+	$LOCAL_DIR/coccoon/header.html
+		This file is for the header text- beside the NCAS logo.
+	$LOCAL_DIR/coccoon/local.css
+		This file defines all the local fonts and colors
+	$LOCAL_DIR/coccoon/menu.html
+		This file defines the menu. Read the comments at the beginning of this file for use.
+	$LOCAL_DIR/coccoon/udm-custom.html
+		This file defines the styles for the udm menus, and is well commented. 
+		See http://www.udm4.com/manual/quickstart/ for more information.
+	$LOCAL_DIR/coccoon/variables.html
+		This file contains several variables for the site - MAINTAINER, MAINTAINER_EMAIL, 
+		SCHOOL_ABBREVIATION, SCHOOL_NAME, ADDRESS, PHONE, FAX
+	$LOCAL_DIR/coccoon/left_spacer.html,
+	$LOCAL_DIR/coccoon/right_spacer.html
+		These files are for the content of the right and left padding of the entire page. 
+		Useful if you wish to have some advertisements or other information.
+
+
+HOW TO USE
+	All you have to do is place the following code at the top of the page you wish to include:
+<!--#set var="PAGE_TITLE" value="NCAS Home" --><!--#include virtual="/coccoon_global/header.html"-->
+	...and the following at the bottom:
+<!--#include virtual="/coccoon_global/footer.html"  -->
+	Do NOT put any <html>, <body>, or <head> tags in your file. In order for the html to validate, 
+	the two SSI commands at the top MUST NOT have any space between them or before them.
+	
+VARIABLES
+	The following is a list of varaibles used:
+	[defined globally, in /coccoon_global/local_dirs.html]
+		$LOCAL_DIR
+			Used to switch between the different local coccoon directories. 
+	[defined per page:]
+		$PAGE_TITLE
+			The title of the individual page. The text displayed in the titlebar of the browser's window. 
+	[defined in $LOCAL_DIR/coccoon/variables.html, defined per site]
+		$LOGO - The path to the logo image.
+		$MAINTAINER - The current maintainer of the school's wen site.
+		$MAINTAINER_EMAIL - The maintainer's email
+		$SCHOOL_ABBREVIATION - The abbreviation for the school (i.e. NCAS, CANCAS)
+		$SCHOOL_NAME - The full name of the school (i.e. "North Carolina Academy of Science")
+		$ADDRESS - The address of the school
+		$PHONE - The contact phone number for the school.
+		$FAX - The contact Fax number for the school.
+
+
+TOOLS
+	These are some of my most used and recommended tools for building web pages.
+	-- CSS2 Reference - covers new and old w3c style recommendations
+		http://www.w3schools.com/css/css_reference.asp
+	-- Very nice color HTML codes. Lists conversion from color names to code
+		http://halflife.ukrpack.net/csfiles/help/colors.shtml
+	-- Firefox Web Browser [Internet Explorer doe NOT conform to standards!]
+		http://www.mozilla.com/en-US/
+	-- HTML Validator Firefox Add-On - Great for validating pages
+		https://addons.mozilla.org/en-US/firefox/addon/249
+	-- Total Validator Firefox Add-On - Validates against w3c standards
+		https://addons.mozilla.org/en-US/firefox/addon/2318
+	-- Firebug Firefox Add-On
+		https://addons.mozilla.org/en-US/firefox/addon/1843
+	-- Macromedia Dreamweaver - Great web site creator for windows
+		http://www.adobe.com/products/dreamweaver/
+	-- Eclipse - My favorite editor (cross-platform) - for all kinds of development (php, perl, ssi, html, and more!)
+		http://www.eclipse.org/
+	-- Nvu - great FREE WYSIWYG cross-platform web editor
+		http://www.nvu.com/index.php
+		

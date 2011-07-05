@@ -1,0 +1,117 @@
+/*screenLayout.css:
+ *	Created by Samuel C. Tyler, January 2007
+ *	This file defines the layout of the NCAS Web Site.
+ */
+
+/*///////// GENERAL //////////*/
+body {
+	margin:0px;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link,
+a:visited
+{
+	text-decoration:none;
+	color:#0066FF;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+/*///////// HEADER //////////*/
+
+/*set image and text height*/
+#pageHeader,
+#pageHeaderImg,
+#pageHeaderImg img,
+#pageHeaderTxt{
+	height:85px;
+	background-color:#FFFFCC;
+	line-height:85px;
+}
+#pageHeader{
+	padding:0px;
+	margin:0px;
+	clear:both;
+	border-bottom:thin groove;
+}
+#pageHeaderImg{
+	float:left;
+	width:30%;
+	max-width:200px;
+}
+#pageHeaderTxt{
+	/*padding-bottom:-10px;
+	padding-top:10px;*/
+	vertical-align:middle;
+	text-align:center;
+	font-size:xx-large;
+	float:left;
+	width:70%;
+	max-width:100%;
+}
+
+
+/*///////// MIDDLE //////////*/
+#pageMiddle{
+	clear:both;
+}
+#mainContent{
+	float:left;
+	width:70%;
+	/*max-width:100%;*/
+	margin-left:10px;
+}
+#navigation{
+	margin:0px;
+	float:left;
+	width:30%;
+	max-width:200px;
+	/*border-right:thin groove;
+	border-bottom:thin groove;*/
+	background-color:#FFFFCC;
+}
+#navigation ol{
+	margin:0px;
+	padding:0px;
+}
+#navigation ol li a:focus,
+#navigation ol li a{display:block;width:100%;}
+#navigation ol li a:hover,
+#navigation ol li:hover{
+	background-color:#6699FF;
+	color:#FFFFCC;
+	text-decoration:none;
+}
+#navigation ol li{
+	padding-left:10px;
+	padding-top:5px;
+	font-size:smaller;
+	list-style:none;
+	border-bottom:thin dotted #CCCCCC;
+	color:#0066FF;
+}
+#navigation ol li ol{
+	font-size:smaller;
+	color:#0066FF;
+}
+
+
+
+
+/*///////// FOOTER //////////*/
+#pageFooter{
+	clear:both;
+	border-top:thin groove;
+}
+

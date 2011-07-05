@@ -1,0 +1,155 @@
+body{
+ 	background-color: #6666cc  /*#ADD8E6*/;
+}
+#envelope{
+ 	background-color:#ffffff;
+}
+
+#submenu_tabs{background-color:#66CC66;}
+
+#content{background-color:#ffffff;}
+
+
+#sitenews{
+	margin:0px;margin-top:100px;
+	padding:0px;
+	background-color:#666666;
+	border:1px inset #333;
+	height:100%;
+}
+#sitenews dl{margin:0px;padding:0px;padding-bottom:3px;}
+#sitenews dl dt{font-size:14px;font-weight:bold;border-bottom:1px solid #ccc;color:#ccc;height:15px;}
+#sitenews dl dd{
+	font-size:12px;
+	text-indent:0px;
+	margin:0px;
+	margin-left:5px;
+	border-bottom:1px dashed #666;
+}
+#sitenews dl dd:before{font-size:12px;text-indent:0px;margin:5px;}
+#sitenews a{text-decoration:none;color:#ADD8E6;}
+#sitenews a:hover{color:#00cc66;}
+
+.infohead{
+	background-color:#999999;
+	font-size:16pt;
+	font-weight:bold;
+	padding-bottom:0px;
+	padding-bottom:0px;
+}
+.infobody{
+	background-color:#cccccc;
+	font-size:12pt;
+	padding-top:1em;
+	padding-left:3em;
+	padding-right:3em;
+	padding-bottom:1em;
+	margin-top:0px;
+	margin-bottom:2ex;
+	margin-left:0px;
+}
+.infobody p {text-indent:4em;padding:0px;margin:0px;}
+
+.newstable {
+	padding: 0;
+	border: 0;
+}
+
+.newsBody {
+	width: 90%;
+	font-size: 12;
+	background-color: #E5E0E5;
+	text-indent: 2em;
+	margin-right: 2em;
+	margin-left: 2em;
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+}
+.newsBody P{
+	text-indent:2em;
+}
+.newsDate {
+	width: 90%;
+	font-size: 10;
+	background-color: #C5C2C5;
+	margin-right: 2em;
+	margin-left: 2em;
+	width: 100;
+}
+
+.newsHead {
+	font-size: 16;
+	margin-right: 2em;
+	color: #C5C2C5;
+	background-color: #838183;
+}
+
+.manPage{
+	font-family: monaco,monospace;
+	background-color: white;
+	vertical-align:top;
+}
+.manPage P{
+	color: black;
+	text-indent: 4em;
+	font-size: 10;
+}
+.manSection{
+	color: black;
+	font-size: 16;
+}
+
+.code{
+	text-align:left;
+	background-color: lightgray;
+	color: white;
+	width: 50%;
+	#margin-left:5em;
+	font-size: 10;
+	font-family: monaco,monospace;
+}
+.manTable{
+	width: 90%;
+	border-color: black;
+	border: 3;
+	font-family: monaco,monospace;
+	font-size: 10;
+}
+.manTable TR {
+	background-color: lightgrey;
+}
+.manTable2{
+	width: 90%;
+	font-family: monaco,monospace;
+	background-color: lightgrey;
+	font-size: 10;
+
+}
+.mainFrame{
+	background-color: lightblue;
+	/*margin-top:3;
+	margin-left:15;*/
+}
+
+.dlTable{
+	font-family: monaco,monospace;
+	margin-left:3em;
+	margin-right:3em;
+	padding:0;
+}
+.dlTable TR{
+	background-color:lightgray;
+}
+.dlTable .filename{
+	font-size: 14;
+}
+
+.dlTable .desc{
+	font-size: 12;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+}

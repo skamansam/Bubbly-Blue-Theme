@@ -1,0 +1,32 @@
+/* ie7.css:
+ * Bubbly Blue fixes for IE 7 
+ * 	by Skaman Sam Tyler <skamansam@gmail.com> [http://rbe.homeip.net]
+ * 
+ * These stylesheets cascade with each version decrement,
+ * so IE 5.5 users are using ie8.css, ie7.css, ie6.css, and ie55.css
+ *
+ * If you want to edit the styles for IE 5, edit ie5.css.
+ * 
+ */
+#header_fx{float:left;margin-left:-90px;}
+ul,ol{list-style-type:none;}
+li{list-style-type:none;}
+#page_menu{float:left;position:relative;}
+#page_menu ol ol, 
+#page_menu ul ul{
+	margin:0px;
+	padding:0px;
+	left:0px;
+	top:0px;
+	position:relative;
+	background-image:none;
+}
+#page_menu ol li li,#page_menu ul li li{margin:0px; padding: 0px;}
+#page_menu a{width:100%;display:block;}
+#page_menu ol li:hover,#page_menu ul li:hover{background-image:none;}
+#page_menu li.widget{margin-top:0px;height:1.3em;}
+#page_menu li:hover{color:#ffffff;font-weight:normal;}
+
+.navigation div{display:inline;}
+#bb_loginform #log,#bb_loginform #pwd{width:90%;}
+.widget form{margin:0px;}
