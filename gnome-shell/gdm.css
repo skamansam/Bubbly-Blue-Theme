@@ -14,6 +14,37 @@
  * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+/*Scraped from loginDialog.js:
+.login-dialog {}
+.login-dialog-user-list-item-vertical-layout {}
+.login-dialog-user-list-item {}
+.login-dialog-user-list-item-focus-bin {}
+.login-dialog-user-list-item-text-box {}
+.login-dialog-user-list-item-name {}
+.login-dialog-user-list-item-icon {}
+.login-dialog-user-list-view {}
+.login-dialog-user-list {}
+.login-dialog-session-list-item {}
+.login-dialog-session-list-item-box {}
+.login-dialog-session-list-item-dot {}
+.login-dialog-session-list-item-label {}
+.login-dialog-session-list {}
+.login-dialog-session-list-button {}
+.login-dialog-session-list-triangle {}
+.login-dialog-session-list-label {}
+.login-dialog-session-list-scroll-view {}
+.login-dialog-session-item-list {}
+.login-dialog-logo-box {}
+.login-dialog-title {}
+.login-dialog-prompt-layout {}
+.login-dialog-prompt-label {}
+.login-dialog-prompt-entry {}
+.login-dialog-prompt-fingerprint-message {}
+.login-dialog-not-listed-label {}
+.login-dialog-not-listed-button {}
+*/
+
+
 /* Login Dialog */
 
 .login-dialog-title {
