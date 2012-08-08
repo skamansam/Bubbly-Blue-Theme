@@ -12,6 +12,8 @@ use Data::Dumper;
 
 #regex used for finding CSS class declarations
 my $class_rex=/style_class\:\s*(['"])(.+)$1/;
+my $pclass_rex=/pseudo_class\:\s*(['"])(.+)$1/;
+
 
 #regex used for finding CSS id declarations. not yet used by gnome shell
 my $id_rex=false; #doesn't appear to be used by gtk-St
