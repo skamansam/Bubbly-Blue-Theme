@@ -46,11 +46,17 @@
 @import url("entries.css");
 @import url("ws-switcher.css");
 
+/*Load specific files to use in conjunction with extensions.*/
+@import url("extensions/weather@gnome-shell-extensions.gnome.org.css");
+
 #colors{
-  light-green: rgba(92,219,81,0.5) #5cdb51;
-  medium-green: rgba(108,197,103,0.5) #6cc567;
-  dark-green: rgba(11,78,4,0.5) #0b4e04;
-  light-blue: rgba(116,177,239,0.5) #74b1ef;
-  medium-blue: rgba(15,97,179,0.5) #0f61b3;
-  dark-blue: rgba(5,76,148,0.5) #054c94;
+  -var-light-green: rgba(92,219,81,0.5) #5cdb51;
+  -var-medium-green: rgba(108,197,103,0.5) #6cc567;
+  -var-dark-green: rgba(11,78,4,0.5) #0b4e04;
+  -var-light-blue: rgba(116,177,239,0.5) #74b1ef;
+  -var-medium-blue: rgba(15,97,179,0.5) #0f61b3;
+  -var-dark-blue: rgba(5,76,148,0.5) #054c94;
+  -var-window-box-shadow: 0px 1px 7px 5px rgba(92,219,81,0.5);
+  -var-window-border: 1px solid rgba(92,219,81,0.5);
+
 }

@@ -3,29 +3,39 @@
 	font-size: 9pt;
 	color: rgba(255,255,255,0.8);
 	padding-bottom: 10px;
-	text-shadow: rgba(255,255,255,0.5) 0px 1px 0px; 
+	text-shadow: rgba(92,219,81,0.5) 0px 1px 0px; 
 }
 
 .run-dialog-error-label {
     font-size: 8pt;
-    color: rgba(125,125,125,0.8);
-    text-shadow: rgba(0,0,0,0.5) 0px 1px 0px; 
+    color: #fff;
+    text-shadow: rgba(225,0,0,0.5) 0px 1px 0px; 
+    padding: 5px;
 }
 
 
 .run-dialog-error-box {
-    padding-top: 15px;
-    spacing: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  spacing: 15px;
+  border: #f00 1px dashed;
+  background-color: #900;
+  background-gradient-direction: vertical;
+  background-gradient-start: rgba(255,0,0,0.7);
+  background-gradient-end: rgba(125,0,0,0.7);
 }
 
 .run-dialog {
-	padding: 15px;
-	background-gradient-direction: vertical;
-    background-gradient-start: rgba(25,25,25,0.8);
-    background-gradient-end: rgba(0,0,0,0.8);
-	color: #fff;
-	border: 1px solid rgba(255,255,255,0.3);
-	border-radius: 5px;
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 35px; 
+  background-gradient-direction: horizontal;
+  background-gradient-start: rgba(5,76,148,0.7);
+  background-gradient-end: rgba(116,177,239,0.7);
+  border: 1px solid rgba(92,219,81,0.8);
+  border-radius: 40px 5px 40px 5px;
+  color: #5cdb51;
+  box-shadow: 0px 1px 7px 5px rgba(92,219,81,0.5);
 }
 
 .lightbox {
