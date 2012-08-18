@@ -23,13 +23,13 @@
 }
 
 .thumbnail-scroll-gradient-left {
-	background-gradient-direction: horizontal;
-    background-gradient-start: rgba(255,255, 51, 0);
-    background-gradient-end: rgba(51, 51, 51, 1.0);
-    border-radius: 5px;
-    border-radius-topright: 0px;
-    border-radius-bottomright: 0px;
-    width: 60px;
+  background-gradient-direction: horizontal;
+  background-gradient-start: rgba(255,255, 51, 0);
+  background-gradient-end: rgba(51, 51, 51, 1.0);
+  border-radius: 5px;
+  border-radius-topright: 0px;
+  border-radius-bottomright: 0px;
+  width: 60px;
 }
 
 .thumbnail-scroll-gradient-right {

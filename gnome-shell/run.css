@@ -39,5 +39,31 @@
 }
 
 .lightbox {
-	background-color: rgba(0,0,0,0.3);
+  background-gradient-direction: vertical;
+  background-gradient-start: rgba(5,76,148,0.3);
+  background-gradient-end: rgba(116,177,239,0.3);
+}
+
+.run-dialog-entry
+{
+    border: 1px solid rgba(255,255,255,0.8);
+    background: rgba(15,97,179,0.5);
+	  box-shadow: -1px 1px 3px 1px #0f0;
+    caret-color: #2D2D2D;
+    caret-size: 1px;
+    border-radius: 2px;
+    height: 16px;
+    padding: 3px 3px;    
+}
+
+.run-dialog-entry:focus
+ {
+    border: 1px groove #687A94;
+    /*box-shadow: inset 0px 0px 1px 1px #95A8C5;
+    outline: 1px ridge #FF00FF;*/
+    -st-shadow: -1px 10px 3px 5px #0f0;
+    color: #333333;
+    caret-color: #545454;
+    selection-background-color: #808080;
+    font: 8pt;
 }

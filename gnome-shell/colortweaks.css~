@@ -1,6 +1,6 @@
 active
-background-color: rgba(116, 177, 239, 0.6);
-background-gradient-end: rgba(104,122,148,0.2);
+background-color: rgba(116, 177, 239, 0.2);
+background-gradient-end: rgba(116, 177, 239, 0.6);
 
 background-gradient-direction: vertical;
 background-gradient-start: rgba(25,25,25,0.8);

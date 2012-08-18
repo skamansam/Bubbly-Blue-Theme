@@ -10,26 +10,26 @@
 }
 
 #notification {
-    border: 1px solid rgba(255,255,255,0.4);
-    background-gradient-direction: vertical;
-    background-gradient-start: rgba(25,25,25,0.9);
-    background-gradient-end: rgba(0,0,0,0.9);
+    border: 1px solid rgba(92,219,81,0.9);
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(116,177,239,0.8);
+    background-gradient-end:  rgba(5,76,148,0.8);
     color: rgba(255,255,255,0.9);
     border-bottom: 0px;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
     font-size: 8.7pt;
     padding: 8px 40px 15px 15px;
     spacing-columns: 10px;
     spacing-rows: 10px;
     width: 350px;
-    box-shadow: 0px -1px 15px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px -1px 15px 5px rgba(92,219,81,0.5);
 }
 
 #notification.multi-line-notification {
     padding-bottom: 8px;
-    background-gradient-direction: vertical;
+/*    background-gradient-direction: vertical;
     background-gradient-start: rgba(25,25,25,0.9);
-    background-gradient-end: rgba(0,0,0,0.9);
+    background-gradient-end: rgba(0,0,0,0.9);*/
 }
 
 /* We use row-span = 2 for the image cell, which prevents its height preferences to be
@@ -39,22 +39,21 @@
 .notification-with-image {
     min-height: 159px;
 }
-
 .summary-boxpointer {
     -arrow-border-radius: 5px;
-    -arrow-background-color: rgba(0,0,0,0.9);
+    -arrow-background-color: rgba(5,76,148,0.5);
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(255,255,255,0.5);
+    -arrow-border-color: rgba(92,219,81,0.9);
     -arrow-base: 15px;
     -arrow-rise: 7px;
-    padding: 2px 7px 0px 7px;
+    padding: 0px 0px 0px 0px;
 }
 
 .summary-boxpointer #notification{
     border: 0;
-    background-gradient-direction: vertical;
-    background-gradient-start: transparent;
-    background-gradient-end: transparent;
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(116,177,239,0.8 );
+    background-gradient-end:  rgba(5,76,148,0.8);
     padding-bottom: 12px;
 }
 

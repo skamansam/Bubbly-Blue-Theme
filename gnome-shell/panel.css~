@@ -98,12 +98,12 @@
 .panel-button:overview,
 .panel-button:focus {
     background-gradient-direction: vertical;
-	  background-gradient-start: rgb(92,219,81);
-    background-gradient-end: rgb(11,78,4);
+	  background-gradient-start:  #5cdb51;
+    background-gradient-end: #0b4e04;
     color: #fff;
     text-shadow: rgba(0,0,0,0.2) -1px -1px 0px;
     border-radius: 18px 0px 18px 0px;
-    padding-right: 5px;
+    padding-right: 3px;
     padding-left: 5px;
 }
 
