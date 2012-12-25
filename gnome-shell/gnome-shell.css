@@ -56,7 +56,7 @@
   -var-light-blue: rgba(116,177,239,0.5) #74b1ef;
   -var-medium-blue: rgba(15,97,179,0.5) #0f61b3;
   -var-dark-blue: rgba(5,76,148,0.5) #054c94;
-  -var-window-box-shadow: 0px 1px 7px 5px rgba(92,219,81,0.5);
+  -var-window-box-shadow: 0px 1px 7px 5px rgba(92,219,81,0.5) #5cdb5181;
   -var-window-border: 1px solid rgba(92,219,81,0.5);
 
 }

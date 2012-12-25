@@ -87,13 +87,13 @@
 
 .popup-menu-item:hover,
 .popup-menu-item:active {
-    color: #fff;
+    color: #000;
     border: 1px  rgba(0,0,0,0.7);
+    background-gradient-start: rgba(92,219,81,0.9);
+    background-gradient-end: rgba(108,197,103,0.9);
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(149,168,197,0.7);
-    background-gradient-end: rgba(104,122,148,1.0); 
     box-shadow: inset 0px 1px 3px rgba(255,255,255,0.3);
-    text-shadow: rgba(25,25,25,0.6) -1px -1px 1px;
+    text-shadow: rgba(116,177,239,0.5) -1px -1px 1px;
     padding: 0.4em 1.4em; /*This padding is set like that because I'm using a border of 1px, so I needed to decrease it a 0.1em to keep the elements from moving*/
 }
 
