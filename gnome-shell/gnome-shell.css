@@ -38,10 +38,12 @@
 @import url("message.css");
 @import url("modal.css");
 @import url("mount.css");
+@import url("notification.css");
 @import url("overview.css");
 @import url("popup-menu.css");
 @import url("panel.css");
 @import url("polkit.css");
+@import url("status.css");
 @import url("run.css");
 @import url("entries.css");
 @import url("ws-switcher.css");

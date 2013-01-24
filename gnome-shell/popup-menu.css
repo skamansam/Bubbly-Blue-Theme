@@ -28,13 +28,14 @@
 }
 
 .popup-submenu-menu-item:open {
-    background-color: rgba(35,35,35,0.8);
+    /*background-color: rgba(35,35,35,0.8);*/
+	  background-gradient-direction: vertical;
+    background-gradient-end: rgba(5,76,148,0.8);
+    background-gradient-start: rgba(116,177,239,0.8);
 }
 
 .popup-sub-menu {
-    background-gradient-direction: vertical;
-    background-gradient-start: rgba(25,25,25,0.7);
-    background-gradient-end: rgba(0,0,0,0.7);
+    background-color: rgba(5,76,148,0.6);
     color: rgba(0,0,0,0.8);
     border-radius: 0px;
 }
