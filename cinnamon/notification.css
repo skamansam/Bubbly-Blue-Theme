@@ -1,0 +1,89 @@
+.summary-boxpointer #notification{
+    border: 0;
+    background-color: rgba(0,0,0,0) !important;
+    padding-bottom: 12px;
+}
+#notification,.notification,#notification-container {
+  width: 34em;
+}
+#notification,.notification{
+    border: 1px solid rgba(92,219,81,0.9);
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(116,177,239,0.8);
+    background-gradient-end:  rgba(5,76,148,0.8);
+    color: rgba(255,255,255,0.9);
+    border-bottom: 0px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 8.7pt;
+    padding: 8px 40px 15px 15px;
+    spacing-columns: 10px;
+    spacing-rows: 10px;
+    width: 350px;
+    box-shadow: 0px -1px 15px 5px rgba(92,219,81,0.5);
+}
+
+#notification.multi-line-notification,.notification.multi-line-notification {
+    padding-bottom: 8px;
+/*    background-gradient-direction: vertical;
+    background-gradient-start: rgba(25,25,25,0.9);
+    background-gradient-end: rgba(0,0,0,0.9);*/
+}
+#notification-unexpanded,.notification-unexpanded{
+  min-height: 36px;
+  height: 36px;
+}
+/* We use row-span = 2 for the image cell, which prevents its height preferences to be
+   taken into account during allocation, so its height ends up being limited by the height
+   of the content in the other rows. To avoid showing a stretched image, we set the minimum
+   height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 = 159 */
+.notification-with-image {
+    min-height: 159px;
+}
+
+#notification-scrollview {
+    max-height: 10em;
+}
+
+#notification-scrollview > .top-shadow, #notification-scrollview > .bottom-shadow {
+    height: 1em;
+}
+
+#notification-scrollview:ltr > StScrollBar {
+    padding-left: 6px;
+}
+
+#notification-scrollview:rtl > StScrollBar {
+    padding-right: 6px;
+}
+
+#notification-body,.notification-body {
+    spacing: 5px;
+}
+
+#notification-actions,.notification-actions {
+    spacing: 10px;
+}
+
+.notification-button {
+    border-radius: 5px;
+    padding: 4px 30px 5px;
+}
+
+.notification-button:focus {
+    border: 1px rgba(0,0,0,0.7);
+}
+
+.notification-icon-button {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #0f0;
+}
+
+.notification-icon-button:focus {
+    padding: 4px;
+}
+
+.notification-icon-button > StIcon {
+    icon-size: 36px;
+}
+

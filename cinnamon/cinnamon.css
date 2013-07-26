@@ -23,22 +23,6 @@
  * Bubbly-Blue Gnome-Shell theme by Skaman Sam
  * based on plastiq
  */
-@define-color light-green #5cdb51;
-@define-color medium-green #6cc567;
-@define-color dark-green #0b4e04;
-@define-color light-blue #74b1ef;
-@define-color medium-blue #0f61b3;
-@define-color dark-blue #054c94;
-@define-color window-box-shadow #5cdb5181;
-
-@define-color light-green-t rgba(92,219,81,0.5);
-@define-color medium-green-t rgba(108,197,103,0.5);
-@define-color dark-green-t rgba(11,78,4,0.5);
-@define-color light-blue-t rgba(116,177,239,0.5);
-@define-color medium-blue-t rgba(15,97,179,0.5);
-@define-color dark-blue-t rgba(5,76,148,0.5);
-@define-color window-box-shadow-t rgba(92,219,81,0.5);
-@define-color window-border-t rgba(92,219,81,0.5);
 
 @import url("app-switcher.css");
 @import url("apps.css");
@@ -76,5 +60,5 @@
   -var-dark-blue: rgba(5,76,148,0.5) #054c94;
   -var-window-box-shadow: 0px 1px 7px 5px rgba(92,219,81,0.5) #5cdb5181;
   -var-window-border: 1px solid rgba(92,219,81,0.5);
-}
 
+}

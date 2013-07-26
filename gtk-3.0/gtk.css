@@ -1,7 +1,26 @@
-@define-color base_color #FFF;
-@define-color text_color #fff;
-@define-color bg_color #2d2d2d;
-@define-color fg_color #ffffff;
+@define-color light-green #5cdb51;
+@define-color medium-green #6cc567;
+@define-color dark-green #0b4e04;
+@define-color light-blue #74b1ef;
+@define-color medium-blue #0f61b3;
+@define-color dark-blue #054c94;
+@define-color window-box-shadow #5cdb5181;
+@define-color light-blue-grey #ccd7db;
+@define-color dark-blue-grey #477489;
+
+@define-color light-green-t rgba(92,219,81,0.5);
+@define-color medium-green-t rgba(108,197,103,0.5);
+@define-color dark-green-t rgba(11,78,4,0.5);
+@define-color light-blue-t rgba(116,177,239,0.5);
+@define-color medium-blue-t rgba(15,97,179,0.5);
+@define-color dark-blue-t rgba(5,76,148,0.5);
+@define-color window-box-shadow-t rgba(92,219,81,0.5);
+@define-color window-border-t rgba(92,219,81,0.5);
+
+@define-color base_color @light-blue-grey;
+@define-color text_color @dark-blue-grey;
+@define-color bg_color @light-blue-grey;
+@define-color fg_color @dark-blue-grey;
 @define-color selected_bg_color #687A94;
 @define-color selected_fg_color #fff;
 @define-color menu_color    #2d2d2d;

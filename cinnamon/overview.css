@@ -1,0 +1,67 @@
+
+/* Overview */
+
+#overview {
+    spacing: 12x;
+}
+
+.workspace-controls {
+    visible-width: 32px; /* Amount visible before hovering */
+}
+
+.workspace-thumbnails-background {
+    border-right:none;
+    spacing: 4px;
+    padding: 12px;
+    color: #fff;
+    box-shadow: 0px 1px 7px 5px rgba(92,219,81,0.5);
+    background-gradient-direction: horizontal;
+    background-gradient-end: rgba(5,76,148,0.7);
+    background-gradient-start: rgba(116,177,239,0.7);
+    border: 1px solid rgba(92,219,81,0.8);
+    border-radius: 25px 5px 5px 25px ;
+    border-right: 0px;
+}
+
+.workspace-thumbnails-background:rtl {
+    border-right: 1px;
+    border-left: 0px;
+    border-radius: 5px 25px 25px 5px ;
+}
+
+.workspace-thumbnails {
+	spacing: 12px;
+}
+
+.workspace-thumbnail-indicator {
+	outline: 2px ridge #A9B6CC;
+	box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.7);
+	border-radius: 4px;
+}
+
+.window-caption {
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(25,25,25,0.8);
+    background-gradient-end: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #fff;
+    font-size: 8.5pt;
+    font-weight: bold;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: rgba(0,0,0,0.8) 0px 1px 0px;
+    -shell-caption-spacing: 10px;
+}
+
+.window-close {
+    background-image: url("img/close-window.svg");
+    height: 24px;
+    width: 24px;
+    -st-background-image-shadow: -2px 2px 6px rgba(0,0,0,0.5);
+    -shell-close-overlap: 12px;
+}
+
+.window-close:rtl {
+    -st-background-image-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
